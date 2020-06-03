@@ -125,7 +125,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
-    background-size: contain;
+    background-size: cover;
 
     &:hover {
       opacity: 0.5;
@@ -190,7 +190,7 @@ main {
   padding: 1rem;
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
-  height: 60px;
+  height: 70px;
 }
 
 @import "mobile";
